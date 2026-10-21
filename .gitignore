@@ -1,0 +1,56 @@
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw EEG recordings and cached signals
+*.edf
+*.bdf
+*.fif
+*.set
+*.vhdr
+*.eeg
+*.npy
+*.npz
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local datasets and downloaded archives
+data/raw/
+data/processed/
+datasets/raw/
+datasets/processed/
+window_cache/
+**/window_cache/
+*.zip
+*.7z
+
+# Local machine and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.bak
